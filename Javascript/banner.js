@@ -15,7 +15,7 @@ function slide__next(){
     if(i>img.length - 1){
         i = 0;
     }
-    document.getElementById("image__slide").src = "image/Banner/" + img[i];
+    document.getElementById("image__slide").src = "Image/Banner/" + img[i];
 }
 function slide__pre(){
     i--;
