@@ -22,7 +22,7 @@ function slide__pre(){
     if(i<0){
         i = img.length - 1;
     }
-    document.getElementById("image__slide").src = "image/Banner/" + img[i];
+    document.getElementById("image__slide").src = "Image/Banner/" + img[i];
 }
 click__next();
 function click__next(){
